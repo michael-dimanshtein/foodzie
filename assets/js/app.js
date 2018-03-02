@@ -289,8 +289,7 @@ $('.budget-gif').on('click', function() {
     //set static map
     var map = $('#themap');
     var imgSrc = `https://maps.googleapis.com/maps/api/staticmap?size=400x400&maptype=roadmap
-                &format=jpg-baseline&markers=color:red%7Clabel:A%7C${userLatitude},${userLongitude}&markers=icon:https://goo.gl/eiJSZQ%7C${destLatitude},${destLongitude}&path=color:blue|weight:4|${userLatitude},${userLongitude}|${destLatitude},${destLongitude}&key=${AIzaSyCk0Don6wN9WHH3Ic6t_tfFxz1rqdPTo1w
-            }`;
+                &format=jpg-baseline&markers=color:red%7Clabel:A%7C${userLatitude},${userLongitude}&markers=icon:https://goo.gl/eiJSZQ%7C${destLatitude},${destLongitude}&path=color:blue|weight:4|${userLatitude},${userLongitude}|${destLatitude},${destLongitude}&key=AIzaSyCk0Don6wN9WHH3Ic6t_tfFxz1rqdPTo1w`;
     $('.map-title').show();
     $('#showMap').attr('src', imgSrc);
     map.show();
